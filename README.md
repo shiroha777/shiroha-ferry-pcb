@@ -18,7 +18,7 @@
 | 游戏立绘 | [EDA 工程](boards/game/game.epro2) | [Gerber](boards/game/gerber.zip) | [正反面 SVG](boards/game/preview.svg) |
 | 动画立绘 | [EDA 工程](boards/anime/anime.epro2) | [Gerber](boards/anime/gerber.zip) | [正反面 SVG](boards/anime/preview.svg) |
 
-[下载全部七款](https://github.com/shiroha777/shiroha-ferry-pcb/releases/tag/v1.0.0)
+[下载全部七款](https://github.com/shiroha777/shiroha-ferry-pcb/releases/latest) · [下载蓝天版双面 Gerber](https://github.com/shiroha777/shiroha-ferry-pcb/releases/download/v1.0.1/Shiroha-Blue-Sky-Gerber.zip)
 
 ## 看细节
 
@@ -28,9 +28,10 @@
 
 ## 使用
 
-1. 在嘉立创 EDA 专业版导入对应的 `.epro2`，打开 PCB 查看或编辑图层。
-2. 查看同目录的 `preview.svg` 核对正反面。板外形约 49.87 × 99.87 mm，两个圆孔和顶部挂绳槽已写入制造文件。
-3. 选择对应款式的 `gerber.zip` 打样。预览采用黑色阻焊、白色丝印、沉金配色。预览来自 Gerber 回渲，仍待实物验证。
+1. 在嘉立创 EDA 专业版导入该款的 `.epro2`，打开 `PCB1`。编辑器用不同颜色区分图层。新版工程默认在编辑视图隐藏底铜、底层丝印和底层阻焊开窗，点击右侧图层的眼睛可重新显示。
+2. 点击工具栏的 **2D**，在右侧「板面」切换顶面和底面。板子颜色选黑色，焊盘喷镀选金色，打开丝印显示。顶面为竖排人物，底面船票可横向阅读。[嘉立创 EDA 专业版 2D 预览说明](https://prodocs.lceda.cn/cn/pcb/view-preview-2d/)
+3. 选择对应款式的 `gerber.zip` 打样。每个压缩包包含正反面铜层、阻焊开窗、丝印，以及板框、挂绳槽和两个圆孔。下单选双层 FR-4、黑色阻焊、白色丝印、沉金（ENIG）。
+4. 每款的 `preview.svg` 由 Gerber 回渲。黑底代表阻焊，白色代表丝印，金色代表开窗露出的沉金铜面。屏幕上的金色是示意色，实物光泽与色调随工艺和光线变化。
 
 ## 来源与许可
 
